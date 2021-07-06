@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#252121"
+    android:orientation="vertical"
+    tools:context=".Intru">
+
+    <TextView
+        android:id="@+id/txtIns"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:text="Instrucciones"
+        android:textColor="@color/white"
+        android:textIsSelectable="false"
+        android:textSize="40sp"
+        app:drawableTint="#FBFBFB" />
+
+    <TextView
+        android:id="@+id/txtMuchoTexto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La experiencia es una manera simplificada de codificacion para entrenar la logica, los comandos basicos que se utilizaran son los siguientes:"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="text:"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="rotate:"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="translate"
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="La manera en la que se usan estos comandos son muy basicas con text ingresas un texto usualmente a un acerijo o una pregunta, por parte de rotate acepta unicamente numeros y gira los objetos en pantalla dependiendo de los grados que le ingrese, en translate es ingresar la posicion en x o y que se quiera trasladar."
+        android:textColor="@color/white"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnFuckGoBack"
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+
+        android:onClick="OnclickRegre"
+        android:text="Regresar"
+        app:backgroundTint="#297A26" />
+
+</LinearLayout>
